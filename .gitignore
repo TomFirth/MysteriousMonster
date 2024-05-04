@@ -1,0 +1,11 @@
+.vs
+.vscode
+.vsconfig
+Library/
+Logs/
+obj/
+Packages/
+ProjectSettings/
+UserSettings/
+Temp/
+Assembly-CSharp.csproj
