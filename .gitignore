@@ -4,8 +4,6 @@
 Library/
 Logs/
 obj/
-Packages/
-ProjectSettings/
 UserSettings/
 Temp/
 Assembly-CSharp.csproj
