@@ -29,7 +29,7 @@ public class BasicMovement : MonoBehaviour
 
         stick = gamepad.leftStick.ReadValue();
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
-        if(Vector3.Distance(transform.position, movePoint.position) <= 0.05f)
+        if (Vector3.Distance(transform.position, movePoint.position) <= 0.05f)
         {
             if (Mathf.Abs(movementInput.x) == 1f || Mathf.Abs(stick.x) > 0.05f)
             {
@@ -38,8 +38,7 @@ public class BasicMovement : MonoBehaviour
                 {
                     movePoint.position += move;
                 }
-            }
-            else if (Mathf.Abs(movementInput.y) == 1f || Mathf.Abs(stick.y) > 0.05f)
+            } else if (Mathf.Abs(movementInput.y) == 1f || Mathf.Abs(stick.y) > 0.05f)
             {
                 move = new Vector3(0f, Mathf.Round(movementInput.y), 0f);
                 if (!Physics2D.OverlapCircle(movePoint.position + move, .2f, whatStopsMovement))
