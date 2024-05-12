@@ -5,7 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Trainer", menuName = "Trainer")]
 public class Trainer : ScriptableObject
 {
-    public string name;
+    public string title;
+    public int[] location;
     public string intro;
     public string outro;
 

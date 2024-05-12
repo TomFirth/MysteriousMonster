@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c8323a2923602a409d3cd46ebedd31b, type: 3}
-  m_Name: Kangaroo
+  m_Script: {fileID: 11500000, guid: b4b7d248828381e47992bc05cadbfac1, type: 3}
+  m_Name: Mechanical
   m_EditorClassIdentifier: 
   name: 
-  sprite: {fileID: 0}
-  level: 0
+  description: 
+  logo: {fileID: 0}

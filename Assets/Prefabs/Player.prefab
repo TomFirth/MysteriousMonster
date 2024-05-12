@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4428422392397269008}
   - component: {fileID: 5183412826923250596}
   - component: {fileID: 5354210940215001642}
+  - component: {fileID: 202305150347940085}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 927816295383659218}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.5, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -102,6 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  movementThreshold: 0.5
   movePoint: {fileID: 474690281561498977}
   whatStopsMovement:
     serializedVersion: 2
@@ -163,6 +165,22 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 5316434322335339881}
+--- !u!114 &202305150347940085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927816295383659218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf4d09dab1a4d7f49b7e49eeb868d6e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movePoint: {fileID: 474690281561498977}
+  grass:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &5053945349164357751
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,7 +292,7 @@ Transform:
   m_GameObject: {fileID: 7924057655549017606}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0.5, z: -10}
+  m_LocalPosition: {x: 0, y: 0.5, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
