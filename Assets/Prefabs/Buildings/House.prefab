@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 5853135438067135299}
   - component: {fileID: 4871115065350440824}
   - component: {fileID: 6024851552886566408}
-  - component: {fileID: 8589549517983584108}
+  - component: {fileID: 4935727350912387410}
   m_Layer: 7
   m_Name: Door
   m_TagString: Untagged
@@ -280,7 +280,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   sceneName: Home
---- !u!114 &8589549517983584108
+--- !u!114 &4935727350912387410
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -292,3 +292,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 500f121e7d8cd3d4e9b63065b45d2347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fadeSprite: {fileID: 0}
+  fadeSpeed: 1

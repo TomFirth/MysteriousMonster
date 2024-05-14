@@ -26,7 +26,7 @@ public class OpenDoor : MonoBehaviour
         playerDetected = Physics2D.OverlapCircle(movePoint.position, .2f, door);
         if (playerDetected && sceneSwitch != null)
         {
-            sceneSwitch.SwitchScene(sceneName);
+            sceneSwitch.FadeToScene(sceneName);
         }
     }
 }

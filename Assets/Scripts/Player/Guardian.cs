@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class Guardian : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    // follow
+    // move to nearest position when talking to npc
+    // continue talking to npc and continue conversation even if player leaves
+    // fight trainer
+    // return to player after fight
 }
